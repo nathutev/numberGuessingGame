@@ -1,0 +1,75 @@
+#title {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#text1 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#label {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#guessField {
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 20px;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  border: 2px rgb(143, 39, 91) solid;
+  padding: 3px 0px 3px 5px;
+}
+
+#guessField:focus{
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  -moz-appearance: textfield;
+}
+
+#submitButton, #resetBtn {
+  background-color: rgb(143, 39, 91);
+  border-style: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+#submitButton:hover, #resetBtn:hover {
+  opacity: 0.8;
+}
+
+#submitButton:active, #resetBtn:active {
+  opacity: 0.6;
+}
+
+#resetBtn {
+  border-style: none;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+#guessTracker {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#winTracker {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -12px;
+}
